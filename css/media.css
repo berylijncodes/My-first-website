@@ -1,0 +1,59 @@
+/* Smart Phones */
+.logo a {
+  float: none;
+  text-align: center;
+}
+
+.link-wrap {
+  float: none;
+}
+
+.nav-list li {
+  float: none;
+}
+
+.nav-list li a {
+  line-height: 1;
+  border-bottom: 1px dotted #043046;
+  padding: 0.7rem;
+}
+
+#navbar {
+  padding-top: 1rem;
+}
+
+.showcase-content {
+  padding-top: 3.5rem;
+}
+
+.showcase-content p {
+  padding-bottom: 1.5rem;
+}
+
+/* .flex-container {
+  display: flex;
+} */
+
+.container-card {
+  background: #434343;
+  display: block;
+  height: 200px;
+  max-width: 100%;
+  padding: 10px 20px;
+  text-align: center;
+  border: 1px solid #f0f0f0;
+  margin-bottom: 10px;
+}
+
+/* #testimonial-row {
+  margin: 4.5rem auto;
+} */
+
+#testimonials h2 {
+  line-height: 1;
+  padding-top: 1.8rem;
+}
+
+#main-footer {
+  background: #8d3609;
+}

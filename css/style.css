@@ -1,0 +1,308 @@
+/* Reset styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main styling */
+html,
+body {
+  font-family: "Raleway" sans-serif;
+  line-height: 1.7;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Raleway" sans-serif;
+}
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* Utilities */
+
+.container {
+  max-width: 1110px;
+  margin: auto;
+  overflow: auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.py {
+  padding: 20px 0;
+}
+
+.clr {
+  clear: both;
+}
+
+/* Navbar */
+#navbar {
+  background: #5b6d5b;
+  overflow: auto;
+}
+
+.logo a {
+  color: #ffdf33;
+  font-family: "Satisfy", cursive;
+  font-size: 38px;
+  float: left;
+}
+
+.logo a {
+  font-weight: 600;
+  font-family: "Satisfy", cursive;
+}
+
+.link-wrap {
+  float: right;
+}
+
+.nav-list li {
+  float: left;
+}
+
+.nav-list li a {
+  font-size: 18px;
+  color: #ffdf33;
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+.nav-list li a:hover {
+  background: #043046;
+  color: #8d3609;
+}
+
+#showcase {
+  background: url("../images/car.jpg") no-repeat center center/cover;
+  height: 100vh;
+}
+
+#showcase .container {
+  display: block;
+  padding: 0 10px;
+  max-width: 100%;
+  text-align: center;
+}
+
+.showcase-content {
+  color: #8d091e;
+  padding-top: 100px;
+  font-family: "Roboto", sans-serif;
+  margin: auto;
+}
+
+.showcase-content p {
+  color: #f0f0f0;
+  font-size: 30px;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+
+.btn {
+  background: #5b6d5b;
+  color: #ffdf33;
+  font-size: 18px;
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+.btn-2 {
+  background: #5b6d5b;
+  color: #ffdf33;
+  font-size: 18px;
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+.btn-2:hover {
+  background: #cdd3cd;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+.btn:hover {
+  background: #043046;
+  color: #8d3609;
+}
+
+/* Section Main */
+.container-content h2 {
+  font-size: 30px;
+  color: #e40017;
+  margin-top: 40px 0;
+  text-align: center;
+  padding: 10px;
+}
+
+#main {
+  background: #f0f0f0;
+  margin: auto;
+  padding-top: 20px;
+}
+
+#main .container {
+  margin: auto;
+}
+
+.container-card {
+  background: #434343;
+  display: inline-block;
+  height: 300px;
+  max-width: 33%;
+  padding: 15px 20px;
+  text-align: center;
+  border: 1px solid #f0f0f0;
+  margin-bottom: 20px;
+}
+
+.container-card h3,
+.container-card p {
+  color: #f0f0f0;
+  font-size: 16px;
+  padding: 4px 0 5px;
+}
+
+.container-card h3 {
+  font-size: 24px;
+}
+
+.fas {
+  color: #8d3609;
+  padding: 10px 0;
+}
+
+/* Section - Testimonials */
+
+#testimonials {
+  background: #f4c983;
+}
+
+#testimonials h2 {
+  color: #e40017;
+}
+
+.testimonial-row {
+  margin: 100px auto;
+  width: 70%;
+  text-align: left;
+}
+
+.testimonial-row .img-1 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  float: right;
+  margin-right: 10px;
+}
+
+.testimonial-row .img-2 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 10px;
+}
+
+.testimonial-row h3 {
+  color: #fdf1d6;
+}
+
+.testimonial-row p {
+  color: #333;
+  font-size: 18px;
+}
+
+/* Section Footer */
+
+#main-footer {
+  background: #484018;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+#contact-footer {
+  background: #364136;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Section Contact Form */
+#contact-form {
+  background: #cdd3cd;
+  color: #fff;
+  display: block;
+}
+
+#contact-form h1 {
+  text-align: center;
+}
+
+#contact-form .form-wrap {
+  background: #5b6d5b;
+  display: block;
+  padding: 20px;
+  max-width: 400px;
+  margin: auto;
+  text-align: start;
+}
+
+.form-input label {
+  display: block;
+  padding: 10px 15px;
+}
+
+.form-input input {
+  padding: 10px 15px;
+  width: 100%;
+  border: 2px solid #f4c983;
+  border-radius: 5px;
+}
+
+.form-input select {
+  padding: 5px;
+  width: 100%;
+  border: 2px solid #f4c983;
+  border-radius: 5px;
+}
+
+.form-input input:focus,
+.form-input textarea:focus .form-input select {
+  outline: none;
+  border-color: #f4c983;
+}
+
+#contact-form textarea {
+  border: 2px solid #f4c983;
+  border-radius: 5px;
+  height: 100px;
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 10px;
+  text-align: start;
+}
